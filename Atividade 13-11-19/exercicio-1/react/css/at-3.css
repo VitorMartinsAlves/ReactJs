@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+}
+
+body {
+    background-color: #EEE8E8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+    background-color: white;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.banner {
+    background-image: url(../imagens/b2.png);
+    height: 554px;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+h2 {
+    display: flex;
+    justify-content: right;
+}
+
+nav {
+    text-align: center;
+}
+
+.menu {
+    padding: 10px;
+    text-transform: uppercase;
+    display:flex;
+    justify-content: space-between;
+    list-style: none; 
+    width: 512px;
+}
+
+.menu a {
+    color: #707070;
+    text-decoration: none;
+}
+
+main {
+    padding-top: 90px;
+    margin: auto;
+    width: 1200px;
+    background-color: white; 
+}
+
+.conteudo {
+    
+    display: flex;
+    justify-content: space-between;
+
+}
+
+h1 {
+    padding-bottom: 24px;
+}
+
+.img2 {
+    margin-left: 100px;
+}
+
+.txt {
+    line-height: 1.5;
+    margin-right: 100px;
+    
+    width: 650px;
+    margin-bottom: 120px;
+    text-align: center;
+}
+
+.imgv {
+    padding-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+    /*flex-wrap: wrap */
+}
+
+footer {
+    background-color: #D7CBEB;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+.direitos {
+    padding-bottom: 24px;
+    padding-top: 24px;
+}
+
+@media (max-width: 1169px) {
+    
